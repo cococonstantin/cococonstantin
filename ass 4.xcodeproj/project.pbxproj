@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		F04A16C024328544004308E3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F04A16BF24328544004308E3 /* main.cpp */; };
+		F04A16C82432856D004308E3 /* time.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F04A16C62432856D004308E3 /* time.cpp */; };
+		F04A16CB2432859F004308E3 /* date.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F04A16C92432859F004308E3 /* date.cpp */; };
+		F04A16CE243285E2004308E3 /* person.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F04A16CC243285E2004308E3 /* person.cpp */; };
+		F04A16D124328600004308E3 /* inpatient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F04A16CF24328600004308E3 /* inpatient.cpp */; };
+		F04A16D424328634004308E3 /* outpatient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F04A16D224328634004308E3 /* outpatient.cpp */; };
+		F04A16D724328675004308E3 /* doctor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F04A16D524328675004308E3 /* doctor.cpp */; };
+		F04A16DA243286A3004308E3 /* bed.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F04A16D8243286A3004308E3 /* bed.cpp */; };
+		F04A16DD243286D5004308E3 /* hospital.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F04A16DB243286D5004308E3 /* hospital.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +33,22 @@
 /* Begin PBXFileReference section */
 		F04A16BC24328544004308E3 /* ass 4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "ass 4"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F04A16BF24328544004308E3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F04A16C62432856D004308E3 /* time.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = time.cpp; sourceTree = "<group>"; };
+		F04A16C72432856D004308E3 /* time.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = time.h; sourceTree = "<group>"; };
+		F04A16C92432859F004308E3 /* date.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = date.cpp; sourceTree = "<group>"; };
+		F04A16CA2432859F004308E3 /* date.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = date.h; sourceTree = "<group>"; };
+		F04A16CC243285E2004308E3 /* person.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = person.cpp; sourceTree = "<group>"; };
+		F04A16CD243285E2004308E3 /* person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = person.h; sourceTree = "<group>"; };
+		F04A16CF24328600004308E3 /* inpatient.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = inpatient.cpp; sourceTree = "<group>"; };
+		F04A16D024328600004308E3 /* inpatient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = inpatient.h; sourceTree = "<group>"; };
+		F04A16D224328634004308E3 /* outpatient.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = outpatient.cpp; sourceTree = "<group>"; };
+		F04A16D324328634004308E3 /* outpatient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = outpatient.h; sourceTree = "<group>"; };
+		F04A16D524328675004308E3 /* doctor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = doctor.cpp; sourceTree = "<group>"; };
+		F04A16D624328675004308E3 /* doctor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = doctor.h; sourceTree = "<group>"; };
+		F04A16D8243286A3004308E3 /* bed.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = bed.cpp; sourceTree = "<group>"; };
+		F04A16D9243286A3004308E3 /* bed.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bed.h; sourceTree = "<group>"; };
+		F04A16DB243286D5004308E3 /* hospital.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = hospital.cpp; sourceTree = "<group>"; };
+		F04A16DC243286D5004308E3 /* hospital.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = hospital.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +82,22 @@
 			isa = PBXGroup;
 			children = (
 				F04A16BF24328544004308E3 /* main.cpp */,
+				F04A16DB243286D5004308E3 /* hospital.cpp */,
+				F04A16DC243286D5004308E3 /* hospital.hpp */,
+				F04A16D8243286A3004308E3 /* bed.cpp */,
+				F04A16D9243286A3004308E3 /* bed.h */,
+				F04A16D524328675004308E3 /* doctor.cpp */,
+				F04A16D624328675004308E3 /* doctor.h */,
+				F04A16D224328634004308E3 /* outpatient.cpp */,
+				F04A16D324328634004308E3 /* outpatient.h */,
+				F04A16CF24328600004308E3 /* inpatient.cpp */,
+				F04A16D024328600004308E3 /* inpatient.h */,
+				F04A16CC243285E2004308E3 /* person.cpp */,
+				F04A16CD243285E2004308E3 /* person.h */,
+				F04A16C92432859F004308E3 /* date.cpp */,
+				F04A16CA2432859F004308E3 /* date.h */,
+				F04A16C62432856D004308E3 /* time.cpp */,
+				F04A16C72432856D004308E3 /* time.h */,
 			);
 			path = "ass 4";
 			sourceTree = "<group>";
@@ -118,7 +158,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F04A16C82432856D004308E3 /* time.cpp in Sources */,
+				F04A16D124328600004308E3 /* inpatient.cpp in Sources */,
+				F04A16D724328675004308E3 /* doctor.cpp in Sources */,
+				F04A16DD243286D5004308E3 /* hospital.cpp in Sources */,
+				F04A16DA243286A3004308E3 /* bed.cpp in Sources */,
 				F04A16C024328544004308E3 /* main.cpp in Sources */,
+				F04A16CE243285E2004308E3 /* person.cpp in Sources */,
+				F04A16D424328634004308E3 /* outpatient.cpp in Sources */,
+				F04A16CB2432859F004308E3 /* date.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
